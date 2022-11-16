@@ -13,6 +13,19 @@ DESCENDENTE: http://localhost/web2/tpe2/api/game?sort=precio&order=DESC
 
 SE PUEDE BORRAR, AGREGAR.
 
+- para agregar http://localhost/web2/tpe2/api/game 
+{
+    "id": 33,
+    "nombre": "jack and dexter 3",
+    "descripcion": "Jak 3 es un videojuego de plataformas de acción-aventura desarrollado por Naughty Dog y distribuido por Sony Computer Entertainment. El título, precedido por Jak II, es el tercer juego de la serie Jak and Daxter. Fue lanzado en Norteamérica el 9 de noviem",
+    "genero_id": 1,
+    "calificacion": 1,
+    "precio": 0,
+    "imagen": "img/game/6347368f5aa2c.jpg"
+}
+
+- para borrar http://localhost/web2/tpe2/api/game/[id]
+
 CONSIGNAS OPCIONALES:
 
 SE PAGINA Y ORDENA POR PRECIO
